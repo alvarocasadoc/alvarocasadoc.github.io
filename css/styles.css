@@ -154,4 +154,9 @@ span{
     height: auto;
     width: 70%;
   }
+
+  .tag {
+    top: 40%;
+    font-size: 4vw;
+  }
 }
