@@ -107,6 +107,8 @@ span{
   border-radius: 5px;
   width: 100%;
   height: auto;
+  transition: 0.5s;
+  transition-timing-function: ease;
 }
 
 .tag {
