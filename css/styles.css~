@@ -52,17 +52,10 @@ span{
   width: 10%;
   height: auto;
   margin: 1em;
-  transition: 0.5s;
-  transition-timing-function: ease;
 }
 
 .social-icon:hover {
-  -webkit-filter: hue-rotate(-16deg);
-  filter: hue-rotate(-16deg);
-  -webkit-filter: hue-rotate(-16deg);
-  -moz-transform: translate(0px, -5px);
-  -webkit-transform: translate(0px, -5px);
-  transform: translate(0px, -5px);
+  filter: hue-rotate(-10deg);
 }
 
 .caption {
@@ -107,28 +100,6 @@ span{
   border-radius: 5px;
   width: 100%;
   height: auto;
-}
-
-.tag {
-  color: #ffcf00;
-  display: none;
-  position: absolute; 
-  top: 35%;
-  font-size: 2vw;
-  left: 0; 
-  width: 100%; 
-  transition: 0.5s;
-  transition-timing-function: ease;
-}
-
-.cell img:hover ~ .tag, .tag:hover {
-    display: block;
-    position: absolute;
-}
-
-.cell:hover img {
-  -webkit-filter: brightness(30%);
-  filter: brightness(30%);
 }
 
 @keyframes type{
