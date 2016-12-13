@@ -37,13 +37,13 @@
   <div class="container">
     <ul class="portfolio">
       <li class="cell" id="beewo">
-        <a href="http://beewo.es">
+        <a href="https://beewo.es">
           <img alt="Beewo Drones Webpage" src="assets/cell_beewo.png"/>
           <p class="tag">Educative project involving drones and programming.</p>
         </a>
       </li>
       <li class="cell" id="somnium">
-        <a href="http://somnium.io">
+        <a href="https://somnium.io">
           <img alt="Somnium" src="assets/cell_somnium.png"/>
           <p class="tag">Social network about dreams.</p>
         </a>
