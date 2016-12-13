@@ -1,5 +1,7 @@
 body {
-  padding: 10%;
+  height: 100%;
+  width: 100%;
+  background: #000;
 }
 
 h1 {
@@ -12,12 +14,23 @@ h2 {
   font-weight: lighter;
   font-family: sans-serif;
   font-size: 3vw;
+  margin-bottom: 2vw;
 }
 
 p {
   color: #b0b0b0;
   font-size: 2vw;
   font-family: sans-serif;
+}
+
+span{
+  color: #ffcf00;
+  animation: blink 1s infinite;
+}
+
+.introduction {
+  padding: 10%;
+  background: #fff;
 }
 
 .avatar {
@@ -52,9 +65,40 @@ p {
   animation: type 4s steps(60, end);
 }
 
-span{
-  color: #ffcf00;
-  animation: blink 1s infinite;
+.container {
+  padding: 2em;
+}
+
+.portfolio {
+  margin-top: 2em;
+  text-align: center;
+  width: 100%;
+  background: #000;
+  list-style: none;
+  bottom: 0;
+}
+
+.cell {
+  height: auto;
+  width: 28%;
+  margin: 1em;
+  display: inline-block;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+  box-shadow: 0px 0px 10px 0px rgba(100,100,100,1);
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+
+.cell:hover {
+  -ms-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+.cell img {
+  width: 100%;
+  height: auto;
 }
 
 @keyframes type{
@@ -69,4 +113,15 @@ span{
 
 @keyframes blink{
   to{opacity: .0;}
+}
+
+@media (max-width: 800px) {
+  .cell {
+    margin-bottom: 60px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    height: auto;
+    width: 70%;
+  }
 }
